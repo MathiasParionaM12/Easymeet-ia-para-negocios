@@ -74,7 +74,7 @@ Dentro del grupo, existe un "organizador" (quien crea la sala) y "participantes"
 **Costo total estimado del MVP (rango aproximado):**
 ```
 Mínimo: S/. 0 / mes (con free tiers)
-Máximo: S/. 25 / mes (si se supera el free tier de n8n o se hacen muchas llamadas API)
+Máximo: S/. 50 / mes (si se supera el free tier de n8n o se hacen muchas llamadas API)
 
 Supuestos clave:
 - El MVP se probará con máximo 30-50 sesiones reales de usuario durante las semanas 9-12
