@@ -324,7 +324,7 @@ O: Eliminar la fricción de coordinar reuniones entre amigos con agendas y forma
 | Campo | Detalle |
 |---|---|
 | Métrica | Tiempo total promedio para coordinar una reunión entre 3-5 personas |
-| Valor actual | 35 minutos por persona (estimado mediante encuesta a 8 personas del segmento antes de la Semana 6) |
+| Valor actual | 35 minutos por persona (estimado mediante encuesta a 15 personas del segmento antes de la Semana 6) |
 | Meta con el MVP | Menos de 5 minutos desde que el último participante ingresa su disponibilidad |
 | Método de medición | Cronometrando el proceso con 3 grupos de prueba externos al equipo en la Semana 12 |
 | Período de medición | Semanas 12-13 durante las pruebas de usuario |
