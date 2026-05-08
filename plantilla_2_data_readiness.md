@@ -15,7 +15,7 @@
 ---
 
 > **Nota importante sobre la naturaleza de los datos de este proyecto:**
-> MeetSync es un producto de IA Generativa donde los datos no son un dataset histórico
+> EasyMeet es un producto de IA Generativa donde los datos no son un dataset histórico
 > pre-existente, sino información generada por cada usuario en tiempo real al usar el
 > producto. Esto elimina los riesgos más comunes de disponibilidad de datos. El "inventario"
 > corresponde a los tipos de input que el sistema debe ser capaz de procesar.
