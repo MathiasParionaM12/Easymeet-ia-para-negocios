@@ -9,7 +9,7 @@
 - Integrante 2: Adriano Enrique Raffo Mariaca
 - Integrante 3: Mathias Pariona Mego
 
-**Fecha de entrega:** Semana 6 — 2025
+**Fecha de entrega:** Semana 7 — 2026
 **Versión del canvas:** v1
 
 ---
@@ -86,7 +86,7 @@ de planes durante el proceso de coordinación."
 
 | Pregunta | SÍ / NO | Justificación (1 línea) |
 |---|---|---|
-| ¿Una hoja de cálculo o formulario resuelve esto? | NO | No puede procesar texto informal, fotos de horarios ni audio — solo admite datos ya estructurados |
+| ¿Una hoja de cálculo o formulario resuelve esto? | NO | No puede procesar texto informal, fotos de horarios ni audio, solo admite datos ya estructurados |
 | ¿El problema escala con volumen de datos o usuarios? | SÍ | A mayor número de integrantes, más formatos distintos y mayor complejidad de coordinación |
 | ¿Hay un patrón repetitivo difícil de procesar manualmente? | SÍ | Extraer horarios de texto libre, imágenes y audio sigue un patrón que requiere comprensión semántica |
 | ¿El problema requiere generar contenido o razonar en lenguaje natural? | SÍ | Interpretar "tengo libre las tardes excepto cuando hay pichanga" requiere comprensión lingüística contextual |
@@ -121,11 +121,11 @@ El núcleo del problema es procesar múltiples formatos de entrada no estructura
 (texto libre en español informal, fotos de horarios, audio) y convertirlos en datos
 comparables. Esto requiere comprensión semántica y capacidades multimodales (texto +
 visión) que solo ofrece la IA Generativa. El ML Tradicional queda descartado porque
-no existe un dataset histórico de "disponibilidades" que entrenar — cada usuario genera
+no existe un dataset histórico de "disponibilidades" que entrenar a cada usuario genera
 su propia información en tiempo real. La combinación ML + GenAI no aplica porque no
 hay una variable a predecir: la disponibilidad la declara el propio usuario.
 Los modelos LLM modernos con visión (GPT-4o, Claude) pueden leer texto informal,
-interpretar una foto de un horario universitario y estructurar la respuesta en JSON —
+interpretar una foto de un horario universitario y estructurar la respuesta en JSON,
 exactamente lo que este producto necesita.
 ```
 
