@@ -9,7 +9,7 @@
 - Integrante 2: Adriano Enrique Raffo Mariaca
 - Integrante 3: Mathias Pariona Mego
 
-**Fecha de entrega:** Semana 6 — 2025
+**Fecha de entrega:** Semana 7 — 2026
 **Versión del canvas:** v1
 
 ---
@@ -54,7 +54,7 @@ Dentro del grupo, existe un "organizador" (quien crea la sala) y "participantes"
 | **Modelos de lenguaje (LLM)** | SÍ | Núcleo del producto: parsea texto libre e identifica bloques de disponibilidad |
 | **Visión computacional** | SÍ | Extrae horarios de fotos de agenda usando GPT-4o Vision o Claude con visión |
 | **ML supervisado tabular** | NO | No hay dataset histórico de disponibilidades; cada usuario genera su propia información |
-| **ML no supervisado** | NO | No se busca segmentar ni agrupar — se busca encontrar intersección de horarios |
+| **ML no supervisado** | NO | No se busca segmentar ni agrupar, se busca encontrar intersección de horarios |
 | **Automatización de flujos con IA** | SÍ | n8n orquesta el flujo: recibe input → envía al LLM → almacena → compara → presenta |
 | **Clasificación de audio / voz** | TAL VEZ | Whisper API puede transcribir audio a texto para que el LLM lo procese (v2 del producto) |
 
@@ -67,7 +67,7 @@ Dentro del grupo, existe un "organizador" (quien crea la sala) y "participantes"
 | Motor de IA principal | GPT-4o API (OpenAI) o Claude API (Anthropic) | 🟡 | GPT-4o: ~$0.005 por llamada de ~500 tokens. 100 sesiones de prueba ≈ $0.50 |
 | Interfaz / frontend | Bubble.io | 🟢 | Free tier disponible para desarrollo y prototipado del MVP |
 | Almacenamiento de datos | Google Sheets | 🟢 | Gratuito; almacena disponibilidades por sala de forma temporal |
-| Orquestación / automatización | n8n (cloud) | 🟢 | Free tier: hasta 5 workflows activos y 2,500 ejecuciones/mes — suficiente para MVP |
+| Orquestación / automatización | n8n (cloud) | 🟢 | Free tier: hasta 5 workflows activos y 2,500 ejecuciones/mes es suficiente para MVP |
 | Transcripción de audio (v2) | Whisper API (OpenAI) | 🟢 | $0.006/minuto; 50 audios de 2 min en pruebas = S/. 2.25 aprox. |
 
 **Costo total estimado del MVP (rango aproximado):**
@@ -101,7 +101,7 @@ Supuestos clave:
 - [x] Escribe texto en un chat o formulario
 - [x] Sube un archivo (imagen JPG/PNG de horario, archivo .ics)
 - [ ] Hace clic en un botón o selecciona una opción
-- [ ] Habla o graba un audio *(v2 del producto — no incluido en MVP)*
+- [ ] Habla o graba un audio *(v2 del producto, no incluido en MVP)*
 - [ ] El sistema se activa automáticamente
 
 **Descripción detallada del input:**
@@ -124,7 +124,7 @@ subir su archivo .ics exportado desde Google Calendar u Outlook.
 ```
 Cuando todos los participantes han ingresado su disponibilidad, EasyMeet presenta los
 3 mejores horarios comunes en lenguaje natural, ordenados por conveniencia para el
-grupo. Ejemplo: "El mejor momento para reunirse es el jueves de 7:00 a 9:00 pm —
+grupo. Ejemplo: "El mejor momento para reunirse es el jueves de 7:00 a 9:00 pm,
 todos están disponibles. Como alternativa: el martes de 6:00 a 8:00 pm (4 de 5 pueden)."
 El organizador confirma el horario elegido y puede compartir la decisión con el grupo.
 ```
@@ -204,7 +204,7 @@ de entrenamiento adicional.
 Integrate es la opción correcta: conectar GPT-4o o Claude a través de n8n permite
 aprovechar las capacidades multimodales ya existentes y construir el flujo completo
 de la experiencia de usuario sin necesidad de conocimientos de programación avanzados.
-El valor diferencial está en el diseño del flujo y la experiencia — no en el modelo.
+El valor diferencial está en el diseño del flujo y la experiencia, no en el modelo.
 ```
 
 ---
@@ -233,7 +233,7 @@ RESTRICCIONES:
 - NUNCA inventes horarios que el usuario no mencionó explícitamente
 - Si la información es ambigua o incompleta, pide UNA sola aclaración específica
 - No almacenes ni comentes información más allá del horario
-- No sugieras reuniones ni tomes decisiones — solo extrae la disponibilidad
+- No sugieras reuniones ni tomes decisiones, solo extrae la disponibilidad
 - Si no puedes extraer ningún horario, explica brevemente por qué y pide que el
   usuario reescriba su disponibilidad en texto
 
@@ -292,18 +292,18 @@ IDIOMA: Español siempre, sin importar en qué idioma te escriban.
 ### Lo que NO incluye el MVP *(pero podría incluir una versión futura)*
 ```
 1. Integración directa con Google Calendar API / Outlook API via OAuth
-   (requiere configuración de autenticación compleja — se simplifica en MVP con .ics)
-2. Entrada por audio (voz grabada) — requiere Whisper API; se incluye en v2
+   (requiere configuración de autenticación compleja y se simplifica en MVP con .ics)
+2. Entrada por audio (voz grabada), requiere Whisper API; se incluye en v2
 3. Notificaciones automáticas por WhatsApp o email al confirmar el horario
 4. Historial de reuniones coordinadas anteriores
-5. Cuenta de usuario o registro — el MVP funciona sin login
+5. Cuenta de usuario o registro, el MVP funciona sin login
 ```
 
 ### Criterio de éxito del MVP
 ```
 "El MVP está listo cuando un usuario externo al equipo puede crear una sala de
 coordinación, invitar a dos personas más, cada una ingresa su disponibilidad en texto
-o imagen, y el sistema presenta el mejor horario común en menos de 5 minutos — sin
+o imagen, y el sistema presenta el mejor horario común en menos de 5 minutos, sin
 que ningún miembro del equipo de desarrollo asista o intervenga durante el proceso."
 ```
 
@@ -339,7 +339,7 @@ O: Eliminar la fricción de coordinar reuniones entre amigos con agendas y forma
 | Valor actual | 0% (el producto no existe aún) |
 | Meta con el MVP | ≥ 85% de inputs procesados correctamente (evaluación manual de 25 casos de prueba) |
 | Método de medición | El equipo genera 25 inputs de prueba (texto e imagen), los procesa con el MVP y valida manualmente si el JSON extraído es correcto |
-| Período de medición | Semana 11 — antes de las pruebas con usuarios reales |
+| Período de medición | Semana 11, antes de las pruebas con usuarios reales |
 
 ---
 
@@ -348,7 +348,7 @@ O: Eliminar la fricción de coordinar reuniones entre amigos con agendas y forma
 | Campo | Detalle |
 |---|---|
 | Métrica | Porcentaje de usuarios externos que inician el flujo y lo completan sin abandonarlo |
-| Valor actual | N/A (sin benchmark — producto nuevo) |
+| Valor actual | N/A (sin benchmark, producto nuevo) |
 | Meta con el MVP | ≥ 70% de tasa de completación en pruebas de usuario |
 | Método de medición | Registro en Google Sheets de sesiones iniciadas vs. sesiones completadas durante pruebas |
 | Período de medición | Semanas 12-13 |
@@ -369,10 +369,10 @@ O: Eliminar la fricción de coordinar reuniones entre amigos con agendas y forma
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿El Objetivo refleja directamente el problema de la Sección 1.2? | SÍ — el objetivo habla de eliminar la fricción de coordinación, que es exactamente el problema |
-| ¿Los KRs son medibles con números concretos? | SÍ — KR1: <5 min, KR2: ≥85%, KR3: ≥70% |
-| ¿El KPI técnico está conectado al tipo de IA elegido (GenAI)? | SÍ — mide la precisión de extracción del LLM, que es el componente central |
-| ¿El equipo puede obtener el valor actual de KR1 antes de la Semana 6? | SÍ — mediante encuesta a 8-10 personas del segmento antes de la entrega |
+| ¿El Objetivo refleja directamente el problema de la Sección 1.2? | SÍ, el objetivo habla de eliminar la fricción de coordinación, que es exactamente el problema |
+| ¿Los KRs son medibles con números concretos? | SÍ, KR1: <5 min, KR2: ≥85%, KR3: ≥70% |
+| ¿El KPI técnico está conectado al tipo de IA elegido (GenAI)? | SÍ, mide la precisión de extracción del LLM, que es el componente central |
+| ¿El equipo puede obtener el valor actual de KR1 antes de la Semana 6? | SÍ, mediante encuesta a 8-10 personas del segmento antes de la entrega |
 
 ---
 
@@ -381,10 +381,10 @@ O: Eliminar la fricción de coordinar reuniones entre amigos con agendas y forma
 | Pregunta de control | Respuesta |
 |---|---|
 | ¿El problema en la Sección 1.2 es copia exacta del Problem Statement Canvas? | SÍ |
-| ¿El flujo de la Sección 4 es consistente con el tipo de IA elegido? | SÍ — el flujo usa LLM para procesar texto e imagen, que son capacidades de GenAI |
-| ¿El stack tecnológico fue verificado (cuentas creadas, accesos confirmados)? | PENDIENTE — cuentas de n8n y Bubble a crear en Semana 7 al iniciar Phase M |
-| ¿El alcance del MVP es realista para construir en 7 semanas? | SÍ — el flujo principal (texto + imagen → horario) es construible en 2-3 semanas con n8n |
-| ¿El system prompt fue probado al menos una vez antes de entregar? | SÍ — se probó manualmente en claude.ai y chatgpt.com con inputs de prueba |
+| ¿El flujo de la Sección 4 es consistente con el tipo de IA elegido? | SÍ, el flujo usa LLM para procesar texto e imagen, que son capacidades de GenAI |
+| ¿El stack tecnológico fue verificado (cuentas creadas, accesos confirmados)? | PENDIENTE, cuentas de n8n y Bubble a crear en Semana 7 al iniciar Phase M |
+| ¿El alcance del MVP es realista para construir en 7 semanas? | SÍ, el flujo principal (texto + imagen → horario) es construible en 2-3 semanas con n8n |
+| ¿El system prompt fue probado al menos una vez antes de entregar? | SÍ, se probó manualmente en claude.ai y chatgpt.com con inputs de prueba |
 | ¿El Objetivo del OKR refleja el problema definido en Fase P? | SÍ |
 | ¿Los KRs tienen valores actuales concretos (no estimados)? | KR1: verificado con encuesta. KR2 y KR3: sin baseline posible (producto nuevo) |
 | ¿Todos los integrantes entienden cada sección de este canvas? | SÍ |
