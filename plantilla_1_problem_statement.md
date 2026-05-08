@@ -5,9 +5,9 @@
 ---
 
 **Equipo:**
-- Integrante 1: _______________________________________________
-- Integrante 2: _______________________________________________
-- Integrante 3: _______________________________________________
+- Integrante 1: Tiago Jordan Mar
+- Integrante 2: Adriano Enrique Raffo Mariaca
+- Integrante 3: Mathias Pariona Mego
 
 **Fecha de entrega:** Semana 6 — 2025
 **Versión del canvas:** v1
