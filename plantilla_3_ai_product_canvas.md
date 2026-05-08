@@ -25,12 +25,11 @@ EasyMeet
 > *Copia exactamente la declaración del Problem Statement Canvas.*
 
 ```
-"Jóvenes adultos de 18 a 30 años tienen dificultad para coordinar reuniones con sus
-grupos de amigos porque no existe una plataforma que unifique disponibilidades
-expresadas en distintos formatos (Google Calendar, Outlook, fotos de horario, texto
-libre y audio), lo que genera un promedio de 18 a 25 mensajes intercambiados y entre
-1 y 3 días perdidos para agendar un encuentro simple, con una tasa de cancelación
-elevada por agotamiento del proceso."
+"Jóvenes adultos de 18 a 30 años tienen dificultad para coordinar reuniones con sus grupos de amigos
+porque no existe una plataforma que unifique disponibilidades expresadas en distintos formatos
+(Google Calendar, Outlook, fotos de horario, texto libre y audio), lo que genera demoras de entre 1
+y 3 días para encontrar un horario común y provoca frustración, pérdida de interés y abandono frecuente
+de planes durante el proceso de coordinación."
 ```
 
 ### 1.3 Usuario principal
