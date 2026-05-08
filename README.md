@@ -1,8 +1,8 @@
-# MeetSync — AI Scheduling Coordination MVP
+# EasyMeet — AI Scheduling Coordination MVP
 
 ## Descripción del proyecto
 
-MeetSync es un MVP de IA Generativa diseñado para resolver el problema de coordinación de reuniones entre grupos de personas que manejan sus horarios en distintos formatos.
+EasyMeet es un MVP de IA Generativa diseñado para resolver el problema de coordinación de reuniones entre grupos de personas que manejan sus horarios en distintos formatos.
 
 La plataforma permite que los usuarios ingresen su disponibilidad mediante:
 - Texto libre
@@ -81,7 +81,7 @@ Reducir el tiempo, esfuerzo y cantidad de mensajes necesarios para coordinar reu
 3. Cada usuario ingresa disponibilidad
 4. El LLM procesa la información
 5. El sistema encuentra intersecciones horarias
-6. MeetSync propone los mejores horarios
+6. EasyMeet propone los mejores horarios
 7. El organizador confirma la reunión
 
 ---
