@@ -9,7 +9,7 @@
 - Integrante 2: Adriano Enrique Raffo Mariaca
 - Integrante 3: Mathias Pariona Mego
 
-**Fecha de entrega:** Semana 6 — 2025
+**Fecha de entrega:** Semana 7 — 2026
 **Tipo de IA del proyecto:** IA Generativa (LLM multimodal con visión)
 
 ---
@@ -34,7 +34,7 @@
 | 4 | System prompt e instrucciones de extracción | Definido y controlado por el equipo | Texto (prompt de IA) | SÍ |
 
 **Estrategia de contexto elegida:**
-- [x] Prompt simple *(base de conocimiento pequeña y estable — el sistema prompt define el comportamiento; cada input del usuario se procesa en tiempo real sin base de conocimiento externa)*
+- [x] Prompt simple *(base de conocimiento pequeña y estable, el sistema prompt define el comportamiento; cada input del usuario se procesa en tiempo real sin base de conocimiento externa)*
 - [ ] RAG
 - [ ] Memoria de sesión
 
@@ -118,7 +118,7 @@ Resumen de acciones para 🟡:
 |---|---|
 | ¿Cada semáforo tiene evidencia concreta que lo respalda? | SÍ |
 | ¿Todos los 🔴 tienen un plan de acción con fecha y responsable? | SÍ (no hay 🔴) |
-| ¿El equipo verificó el acceso real a los datos antes de completar este checklist? | SÍ — los datos son generados por el usuario en tiempo real; se probó que GPT-4o y Claude pueden procesar texto informal e imágenes de horarios en pruebas preliminares |
+| ¿El equipo verificó el acceso real a los datos antes de completar este checklist? | SÍ; los datos son generados por el usuario en tiempo real; se probó que GPT-4o y Claude pueden procesar texto informal e imágenes de horarios en pruebas preliminares |
 | ¿La estrategia de contexto es coherente con los datos disponibles? | SÍ — prompt simple es adecuado porque el contexto es pequeño y el input varía por usuario |
 
 ---
