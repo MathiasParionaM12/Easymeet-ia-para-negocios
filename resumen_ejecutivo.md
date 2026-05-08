@@ -12,7 +12,11 @@ Jóvenes adultos de 18 a 30 años que coordinan reuniones sociales en grupos de 
 
 # · Declaración del problema
 
-> “Jóvenes adultos de 18 a 30 años tienen dificultad para coordinar reuniones con sus grupos de amigos porque no existe una plataforma que unifique disponibilidades expresadas en distintos formatos (Google Calendar, Outlook, fotos de horario, texto libre y audio), lo que genera un promedio de 18 a 25 mensajes intercambiados y entre 1 y 3 días perdidos para agendar un encuentro simple, con una tasa de cancelación elevada por agotamiento del proceso.”
+> "Jóvenes adultos de 18 a 30 años tienen dificultad para coordinar reuniones con sus grupos de amigos
+porque no existe una plataforma que unifique disponibilidades expresadas en distintos formatos
+(Google Calendar, Outlook, fotos de horario, texto libre y audio), lo que genera demoras de entre 1
+y 3 días para encontrar un horario común y provoca frustración, pérdida de interés y abandono frecuente
+de planes durante el proceso de coordinación."
 
 ---
 
@@ -35,7 +39,6 @@ No se eligió ML tradicional porque no existe un dataset histórico para entrena
 - Fotos de horarios semanales/mensuales
 - Archivos .ics exportados desde Google Calendar y Outlook
 - Prompt de extracción diseñado por el equipo
-- Ejemplos few-shot para pruebas
 
 ## Semáforo general
 🟡 **Necesita trabajo menor**
@@ -99,7 +102,7 @@ El equipo integrará APIs de IA existentes (GPT-4o o Claude) dentro de un flujo 
 
 ## Estimación de costo referencial
 - Mínimo: **S/. 0 / mes** usando free tiers
-- Máximo estimado MVP: **S/. 25 / mes**
+- Máximo estimado MVP: **S/. 50 / mes**
 
 ### Supuestos
 - 30–50 pruebas reales de usuarios
