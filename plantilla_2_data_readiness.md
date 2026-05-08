@@ -118,8 +118,8 @@ Resumen de acciones para 🟡:
 |---|---|
 | ¿Cada semáforo tiene evidencia concreta que lo respalda? | SÍ |
 | ¿Todos los 🔴 tienen un plan de acción con fecha y responsable? | SÍ (no hay 🔴) |
-| ¿El equipo verificó el acceso real a los datos antes de completar este checklist? | SÍ; los datos son generados por el usuario en tiempo real; se probó que GPT-4o y Claude pueden procesar texto informal e imágenes de horarios en pruebas preliminares |
-| ¿La estrategia de contexto es coherente con los datos disponibles? | SÍ — prompt simple es adecuado porque el contexto es pequeño y el input varía por usuario |
+| ¿El equipo verificó el acceso real a los datos antes de completar este checklist? | SÍ, los datos son generados por el usuario en tiempo real; se probó que GPT-4o y Claude pueden procesar texto informal e imágenes de horarios en pruebas preliminares |
+| ¿La estrategia de contexto es coherente con los datos disponibles? | SÍ, prompt simple es adecuado porque el contexto es pequeño y el input varía por usuario |
 
 ---
 
