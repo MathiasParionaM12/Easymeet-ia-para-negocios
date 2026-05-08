@@ -1,9 +1,9 @@
-# Resumen Ejecutivo — MeetSync
+# Resumen Ejecutivo — EasyMeet
 
 ## · Nombre del MVP y usuario principal
 
 ### Nombre del MVP
-**MeetSync**
+**EasyMeet**
 
 ### Usuario principal
 Jóvenes adultos de 18 a 30 años que coordinan reuniones sociales en grupos de amigos de 3 a 6 personas, donde cada integrante administra su tiempo en formatos distintos como Google Calendar, Outlook, horarios en imagen o memoria informal.
@@ -54,7 +54,7 @@ No existen bloqueantes críticos. Todos los puntos identificados tienen planes d
 # · Descripción del producto
 
 ## ¿Qué hace?
-MeetSync permite coordinar reuniones automáticamente usando IA para unificar disponibilidades ingresadas en diferentes formatos y encontrar los mejores horarios comunes.
+EasyMeet permite coordinar reuniones automáticamente usando IA para unificar disponibilidades ingresadas en diferentes formatos y encontrar los mejores horarios comunes.
 
 ## Flujo del producto
 1. Un organizador crea una sala y comparte un link
@@ -64,7 +64,7 @@ MeetSync permite coordinar reuniones automáticamente usando IA para unificar di
    - Archivo .ics
 3. El LLM procesa y estructura los horarios
 4. El sistema compara disponibilidades
-5. MeetSync genera las 3 mejores opciones de reunión
+5. EasyMeet genera las 3 mejores opciones de reunión
 6. El organizador confirma el horario final
 
 ## Alcance del MVP
