@@ -1,4 +1,4 @@
-# EasyMeet — AI Scheduling Coordination MVP
+# EasyMeet
 
 ## Descripción del proyecto
 
