@@ -32,7 +32,6 @@
 | 2 | Foto de horario semanal o mensual | En el celular o computadora del usuario | JPG / PNG | SÍ |
 | 3 | Archivo de calendario exportado | En Google Calendar o Outlook del usuario | .ics / .csv | SÍ (con fricción leve) |
 | 4 | System prompt e instrucciones de extracción | Definido y controlado por el equipo | Texto (prompt de IA) | SÍ |
-| 5 | Ejemplos de disponibilidad para few-shot | Generados por el equipo durante las pruebas | Texto / JSON | SÍ |
 
 **Estrategia de contexto elegida:**
 - [x] Prompt simple *(base de conocimiento pequeña y estable — el sistema prompt define el comportamiento; cada input del usuario se procesa en tiempo real sin base de conocimiento externa)*
