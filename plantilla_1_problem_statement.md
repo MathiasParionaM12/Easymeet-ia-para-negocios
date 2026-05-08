@@ -58,12 +58,7 @@ contextos sociales informales.
 > *¿Qué pierde el usuario sin solución? Expresa en números cuando sea posible.*
 
 ```
-Coordinar una reunión simple entre 3 a 5 personas requiere en promedio entre 18 y 25
-mensajes intercambiados durante 1 a 3 días antes de llegar a un acuerdo. Según una
-encuesta rápida realizada a 8 personas del segmento objetivo, el tiempo total invertido
-por persona en este proceso es de 30 a 45 minutos por reunión coordinada. En muchos
-casos, la reunión nunca llega a concretarse por agotamiento o pérdida de interés durante
-el proceso de coordinación.
+Coordinar una reunión entre amigos suele convertirse en un proceso más largo y desgastante de lo esperado. Según una encuesta exploratoria realizada a 15 personas del segmento objetivo, el 80% indicó que coordinar planes en grupo toma más tiempo del que debería, mientras que el proceso puede extenderse entre 1 y 3 días esperando que todos respondan. Además, el 67% afirmó haber abandonado o perdido interés en una salida debido a la dificultad de encontrar un horario común. En muchos casos, la falta de una forma centralizada de compartir disponibilidades termina generando frustración y retrasando la decisión final del grupo.
 ```
 
 ---
@@ -73,12 +68,7 @@ el proceso de coordinación.
 **"[Tipo de usuario] tiene dificultad para [acción específica] porque [causa raíz], lo que genera [consecuencia medible]."**
 
 ```
-"Jóvenes adultos de 18 a 30 años tienen dificultad para coordinar reuniones con sus
-grupos de amigos porque no existe una plataforma que unifique disponibilidades
-expresadas en distintos formatos (Google Calendar, Outlook, fotos de horario, texto
-libre y audio), lo que genera un promedio de 18 a 25 mensajes intercambiados y entre
-1 y 3 días perdidos para agendar un encuentro simple, con una tasa de cancelación
-elevada por agotamiento del proceso."
+"Jóvenes adultos de 18 a 30 años tienen dificultad para coordinar reuniones con sus grupos de amigos porque no existe una plataforma que unifique disponibilidades expresadas en distintos formatos (Google Calendar, Outlook, fotos de horario, texto libre y audio), lo que genera demoras de entre 1 y 3 días para encontrar un horario común y provoca frustración, pérdida de interés y abandono frecuente de planes durante el proceso de coordinación."
 ```
 
 ---
