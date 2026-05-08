@@ -18,7 +18,7 @@
 
 ### 1.1 Nombre del producto / MVP
 ```
-MeetSync
+EasyMeet
 ```
 
 ### 1.2 Problema que resuelve
@@ -107,7 +107,7 @@ Supuestos clave:
 
 **Descripción detallada del input:**
 ```
-El organizador crea una sala de coordinación en MeetSync y recibe un link único para
+El organizador crea una sala de coordinación en EasyMeet y recibe un link único para
 compartir con el grupo. Cada participante entra al link y elige cómo ingresar su
 disponibilidad: escribe en texto libre cuándo está disponible ("puedo el lunes de 6pm
 en adelante y el jueves todo el día") o sube una foto de su horario. También puede
@@ -123,7 +123,7 @@ subir su archivo .ics exportado desde Google Calendar u Outlook.
 
 **Descripción detallada del output:**
 ```
-Cuando todos los participantes han ingresado su disponibilidad, MeetSync presenta los
+Cuando todos los participantes han ingresado su disponibilidad, EasyMeet presenta los
 3 mejores horarios comunes en lenguaje natural, ordenados por conveniencia para el
 grupo. Ejemplo: "El mejor momento para reunirse es el jueves de 7:00 a 9:00 pm —
 todos están disponibles. Como alternativa: el martes de 6:00 a 8:00 pm (4 de 5 pueden)."
@@ -137,7 +137,7 @@ El organizador confirma el horario elegido y puede compartir la decisión con el
 ### 4.1 Diagrama de flujo
 
 ```
-Paso 1: Organizador → Crea sala en MeetSync → Recibe link único para compartir
+Paso 1: Organizador → Crea sala en EasyMeet → Recibe link único para compartir
 Paso 2: → Comparte el link con el grupo por WhatsApp o similar
 Paso 3: Cada participante → Entra al link → Elige formato de input
          (a) Escribe su disponibilidad en texto libre, O
@@ -216,7 +216,7 @@ El valor diferencial está en el diseño del flujo y la experiencia — no en el
 
 ```
 ROL:
-Eres MeetSync, un asistente experto en leer y estructurar disponibilidades horarias.
+Eres EasyMeet, un asistente experto en leer y estructurar disponibilidades horarias.
 Tu única función es extraer bloques de tiempo disponibles de la información que te da
 el usuario y devolverlos en formato JSON estructurado.
 
