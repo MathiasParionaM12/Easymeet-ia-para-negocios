@@ -7,13 +7,13 @@
 
 ## El problema
 
-Jóvenes de 18 a 30 años tienen dificultad para concretar reuniones con sus grupos de amigos porque cada persona gestiona su disponibilidad en un formato distinto (calendario, foto, memoria) y la comunica en lenguaje informal que ninguna herramienta de coordinación puede interpretar directamente, lo que genera 15–25 mensajes en WhatsApp durante 1 a 3 días y frecuentemente hace que la reunión nunca llegue a ocurrir — no por falta de ganas, sino por agotamiento del proceso.
+Jóvenes de 18 a 30 años tienen dificultad para concretar reuniones con sus grupos de amigos porque cada persona gestiona su disponibilidad en un formato distinto (calendario, foto, memoria) y la comunica en lenguaje informal que ninguna herramienta de coordinación puede interpretar directamente, lo que genera 15–25 mensajes en WhatsApp durante 1 a 3 días y frecuentemente hace que la reunión nunca llegue a ocurrir no por falta de ganas, sino por agotamiento del proceso.
 
 ---
 
 ## La solución
 
-EasyMeet es una web app donde el organizador crea una sala, comparte un link y cada participante ingresa su disponibilidad en el formato que le resulte más natural — texto en español informal, foto de su horario, audio de voz o Google Calendar. Gemini 2.5-flash extrae los bloques de tiempo de cada input, el participante confirma lo que la IA interpretó, y el sistema calcula y presenta los 3 mejores horarios comunes para el grupo.
+EasyMeet es una web app donde el organizador crea una sala, comparte un link y cada participante ingresa su disponibilidad en el formato que le resulte más natural texto en español informal, foto de su horario, audio de voz o Google Calendar. Gemini 2.5-flash extrae los bloques de tiempo de cada input, el participante confirma lo que la IA interpretó, y el sistema calcula y presenta los 3 mejores horarios comunes para el grupo.
 
 **Lo que hace diferente a EasyMeet:** no pide que el usuario cambie cómo habla. "El viernes todo el día pero el sábado no puedo por la mañana" es un input válido y suficiente.
 
@@ -71,8 +71,6 @@ Metodología: evaluación interna con 40 inputs de disponibilidad conocida → c
 
 ## Cambio principal vs. PC1
 
-PC1 planificó un stack de n8n + Bubble + GPT-4o + Whisper + Google Sheets que nunca fue construido. PC2 documenta el stack real: Next.js + Supabase + Gemini 2.5-flash. El cambio más importante no fue técnico sino conceptual — la reformulación del problema de "coordinar horarios" (que Calendar ya resuelve) a "leer disponibilidad en lenguaje informal" (que solo un LLM puede resolver).
+PC1 planificó un stack de n8n + Bubble + GPT-4o + Whisper + Google Sheets que nunca fue construido. PC2 documenta el stack real: Next.js + Supabase + Gemini 2.5-flash. El cambio más importante no fue técnico sino conceptual la reformulación del problema de "coordinar horarios" (que Calendar ya resuelve) a "leer disponibilidad en lenguaje informal" (que solo un LLM puede resolver).
 
 ---
-
-*Framework PROMPT v1.1 — AD5018 UTEC | EasyMeet*
