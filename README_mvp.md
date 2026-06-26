@@ -7,7 +7,6 @@
 
 🔗 **https://easymeet-app.vercel.app**
 
-> Funciona en cualquier navegador moderno (Chrome, Safari, Firefox).
 > No requiere instalación ni cuenta de usuario.
 
 ---
