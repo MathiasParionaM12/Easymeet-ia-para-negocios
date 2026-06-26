@@ -79,5 +79,3 @@ Deploy:   Vercel
 - **Si la IA extrae algo incorrecto**: el sistema lo muestra para que el participante lo corrija antes de guardar (paso de confirmación obligatorio)
 
 ---
-
-*EasyMeet — PC2 | AD5018 UTEC 2026*
