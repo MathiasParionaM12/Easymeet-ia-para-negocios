@@ -9,7 +9,7 @@
 - Mathias Pariona
 - Adriano Raffo
 
-**Fecha de entrega:** PC2 — Semana 12, 2026
+**Fecha de entrega:** PC2 — Semana 14, 2026
 **Nombre del MVP:** EasyMeet
 **Versión del canvas:** PC2
 
