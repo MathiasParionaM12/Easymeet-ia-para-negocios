@@ -9,7 +9,7 @@
 - Mathias Pariona
 - Adriano Raffo
 
-**Fecha de entrega:** PC2 — Semana 12, 2026
+**Fecha de entrega:** PC2 — Semana 14, 2026
 **Tipo de IA del proyecto:** IA Generativa — Google Gemini 2.5-flash (texto, visión y audio)
 **Stack implementado:** Next.js 16.2.9 + TypeScript + Tailwind CSS 4 + shadcn/ui · Supabase PostgreSQL + Realtime · Gemini 2.5-flash API · Google OAuth 2.0 + Calendar FreeBusy API · Vercel
 
@@ -38,18 +38,6 @@
 - [x] Prompt simple *(todo el contexto — rango de fechas de la sala, fecha actual, instrucciones de formato — cabe en el system prompt. No se necesita RAG ni memoria entre sesiones.)*
 - [ ] RAG — Retrieval Augmented Generation *(base de conocimiento grande o cambiante)*
 - [ ] Memoria de sesión *(asistente conversacional con contexto acumulativo)*
-
----
-
-### Para ML Tradicional — Inventario de datos históricos
-
-No aplica — el proyecto usa IA Generativa.
-
----
-
-### Para Combinación — completa ambas secciones anteriores y describe la conexión:
-
-No aplica.
 
 ---
 
@@ -119,23 +107,6 @@ No aplica.
 
 ---
 
-## SECCIÓN 3 — Plan de resolución de bloqueantes
-
-### Bloqueante 1
-```
-No aplica — no hay semáforos 🔴 en ninguna fuente de datos.
-
-Los puntos 🟡 tienen acciones concretas documentadas en la columna "Plan de acción"
-de cada tabla de la Sección 2. Ninguno bloquea la construcción del MVP.
-```
-
-### Bloqueante 2 *(si aplica)*
-```
-No aplica.
-```
-
----
-
 ## SECCIÓN 4 — Privacidad y legalidad de los datos
 
 | Pregunta | Respuesta | Detalle |
@@ -158,5 +129,3 @@ No aplica.
 | ¿La estrategia de contexto o tipo de ML es coherente con los datos disponibles? | SÍ — prompt simple es correcto porque el contexto es pequeño y varía por usuario |
 
 ---
-
-*Framework PROMPT v1.0 — AD5018 UTEC | Plantilla 2 de 4 | EasyMeet*
