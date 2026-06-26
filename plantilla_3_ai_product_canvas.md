@@ -9,7 +9,7 @@
 - Mathias Pariona
 - Adriano Raffo
 
-**Fecha de entrega:** PC2 — Semana 12, 2026
+**Fecha de entrega:** PC2 — Semana 14, 2026
 **Versión del canvas:** PC2
 
 ---
@@ -452,5 +452,3 @@ lo haría en WhatsApp — y obtener el mejor horario común con su grupo en meno
 | ¿Todos los integrantes pueden explicar el flujo completo sin leerlo? | SÍ |
 
 ---
-
-*Framework PROMPT v1.1 — AD5018 UTEC | Plantilla 3 de 4 | EasyMeet*
