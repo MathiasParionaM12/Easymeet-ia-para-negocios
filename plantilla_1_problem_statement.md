@@ -9,7 +9,7 @@
 - Mathias Pariona
 - Adriano Raffo
 
-**Fecha de entrega:** PC2 — Semana 12, 2026
+**Fecha de entrega:** PC2 — Semana 14, 2026
 **Versión del canvas:** PC2
 
 ---
@@ -156,30 +156,6 @@ ML Supervisado descartado: sin dataset de entrenamiento.
 ML No Supervisado descartado: no hay variables que segmentar.
 Combinación descartada: no hay variable que predecir.
 ```
-
-### Si elegiste ML Tradicional — especifica el tipo:
-
-- [ ] Supervisado — Clasificación *(ej: ¿este cliente se irá? ¿este email es spam?)*
-- [ ] Supervisado — Regresión *(ej: ¿cuánto venderemos este mes?)*
-- [ ] No Supervisado — Clustering *(ej: ¿qué segmentos de clientes tenemos?)*
-
-### Si elegiste Combinación — describe el flujo:
-
-```
-¿Qué hace el componente ML?
-
-No aplica.
-
-¿Qué hace el componente GenAI?
-
-No aplica.
-
-¿Cómo se conectan?
-
-No aplica.
-```
-
----
 
 ## SECCIÓN 4 — Autoevaluación del equipo
 
