@@ -110,5 +110,3 @@ Tasa de completación: 6/6 = 100% — supera la meta de ≥70%.
 | **¿Alcanzado?** | N/M | SÍ | NO | SÍ | SÍ |
 
 ---
-
-*PC2 | AD5018 UTEC 2026 — EasyMeet*
