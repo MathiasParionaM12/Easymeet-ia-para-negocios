@@ -47,5 +47,3 @@
 | Presentación PC2 | ⏳ Pendiente |
 
 ---
-
-*Framework PROMPT v1.1 — AD5018 UTEC*
