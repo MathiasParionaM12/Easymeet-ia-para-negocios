@@ -38,12 +38,12 @@
 
 | Componente | Estado |
 |---|---|
-| Problem Statement Canvas (Plantilla 1) | ✅ Completo |
-| Data Readiness Checklist (Plantilla 2) | ✅ Completo |
-| AI Product Canvas (Plantilla 3) | ✅ Completo |
-| AI Impact Scorecard + Risk Matrix (Plantilla 4) | ✅ KR2 PARCIAL · KR3 100% ✅ · KPI 100% ✅ · KR1 no medido |
-| MVP desplegado con URL pública | ✅ https://easymeet-app.vercel.app |
-| Pruebas con usuarios externos (mín. 5) | ✅ 6 usuarios — grupo Casacor, Lima |
-| Presentación PC2 | ⏳ Pendiente |
+| Problem Statement Canvas (Plantilla 1) | Completo |
+| Data Readiness Checklist (Plantilla 2) | Completo |
+| AI Product Canvas (Plantilla 3) | Completo |
+| AI Impact Scorecard + Risk Matrix (Plantilla 4) | KR2 PARCIAL · KR3 100% · KPI 100% · KR1 no medido |
+| MVP desplegado con URL pública | https://easymeet-app.vercel.app |
+| Pruebas con usuarios externos (mín. 5) | 6 usuarios — grupo Casacor, Lima |
+| Presentación PC2 |  |
 
 ---
